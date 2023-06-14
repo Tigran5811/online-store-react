@@ -1,0 +1,40 @@
+.aside {
+    background-color: rgb(255, 255, 255);
+    margin-left: -400px;
+    // float: left;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    padding: 100px 60px;
+    height: calc(100vh - 87px);
+    width: 400px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-right: 2px solid #000 ;
+}
+
+
+
+@keyframes circle {
+
+    0% {
+        margin-left: -400px;
+    }
+
+    50% {
+        margin-left: -200px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.open {
+    animation-name: circle;
+    margin-left: 0;
+}
+
+.close {
+    float: none;
+}

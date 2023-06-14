@@ -1,0 +1,18 @@
+.addProduct{
+    display: none;
+
+}
+
+.open{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

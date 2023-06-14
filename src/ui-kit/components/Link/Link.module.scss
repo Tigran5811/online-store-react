@@ -1,0 +1,21 @@
+.link {
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+    background-color: rgb(211, 210, 208);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    &:hover {
+        background-color: rgb(234, 238, 238);
+    }
+}
+
+
+
+
+.large{
+    font-size: 22px;
+    padding: 10px 15px;
+}
+
+    

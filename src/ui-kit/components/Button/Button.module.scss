@@ -1,0 +1,26 @@
+.button {
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+    background-color: rgb(211, 210, 208);
+    padding: 5px 10px;
+    border-radius: 10px;
+    &:hover {
+        background-color: rgb(234, 238, 238);
+    }
+}
+
+.disabled{
+    &:hover {
+        background-color: #fa0707;
+     }
+}
+
+.small{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.large{
+    font-size: 22px;
+    padding: 10px 15px;
+}
